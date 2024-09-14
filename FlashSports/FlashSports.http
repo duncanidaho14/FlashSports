@@ -1,0 +1,6 @@
+@FlashSports_HostAddress = http://localhost:5216
+
+GET {{FlashSports_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

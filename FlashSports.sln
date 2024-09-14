@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashSports", "FlashSports\FlashSports.csproj", "{851DAD2F-7860-4AC0-8248-D0BD99ED7871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFlashSport", "TestFlashSport\TestFlashSport.csproj", "{A3DE697F-A2C5-4D64-8F6D-7C8DE948A258}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E4B06D45-8AB4-4E7C-9365-9A8D75A115C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{656DAAB2-4176-40DE-AD7B-B113801E71EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashSportsScore.Core.FlashSports.Domain", "FlashSports.Core.Domain\FlashSportsScore.Core.FlashSports.Domain.csproj", "{A1751807-74A5-49A1-9D60-E8384C0F1E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashSportsScore.Core.FlashSports.Infrastructure", "FlashSports.Core.Infrastructure\FlashSportsScore.Core.FlashSports.Infrastructure.csproj", "{2E5DA846-292B-4B2F-970B-64813B486EDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{851DAD2F-7860-4AC0-8248-D0BD99ED7871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851DAD2F-7860-4AC0-8248-D0BD99ED7871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851DAD2F-7860-4AC0-8248-D0BD99ED7871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851DAD2F-7860-4AC0-8248-D0BD99ED7871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3DE697F-A2C5-4D64-8F6D-7C8DE948A258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3DE697F-A2C5-4D64-8F6D-7C8DE948A258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3DE697F-A2C5-4D64-8F6D-7C8DE948A258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3DE697F-A2C5-4D64-8F6D-7C8DE948A258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1751807-74A5-49A1-9D60-E8384C0F1E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1751807-74A5-49A1-9D60-E8384C0F1E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1751807-74A5-49A1-9D60-E8384C0F1E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1751807-74A5-49A1-9D60-E8384C0F1E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5DA846-292B-4B2F-970B-64813B486EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5DA846-292B-4B2F-970B-64813B486EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5DA846-292B-4B2F-970B-64813B486EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5DA846-292B-4B2F-970B-64813B486EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3DE697F-A2C5-4D64-8F6D-7C8DE948A258} = {E4B06D45-8AB4-4E7C-9365-9A8D75A115C3}
+		{A1751807-74A5-49A1-9D60-E8384C0F1E46} = {656DAAB2-4176-40DE-AD7B-B113801E71EF}
+		{2E5DA846-292B-4B2F-970B-64813B486EDE} = {656DAAB2-4176-40DE-AD7B-B113801E71EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3C3D57F-D036-401B-85B6-E397563805DF}
+	EndGlobalSection
+EndGlobal
